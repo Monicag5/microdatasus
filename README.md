@@ -17,7 +17,7 @@ A utilizaço do pacote consiste, em geral, no uso de duas funções: uma realiza
 
 ```r
 library(microdatasus)
-dados <- fetch_datasus(year_start = 2013, year_end = 2014, uf = "RJ", information_system = "SIM-DO")
+dados <- fetch_datasus(year_start = 2010, year_end = 2021, uf = "RJ", information_system = "SIM-DO")
 dados <- process_sim(dados)
 ```
 
